@@ -11,8 +11,8 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, LSTM, Dense, Embedding
 
 # --- Constants ---
-EMBEDDING_DIM = 100
-LSTM_UNITS = 128
+EMBEDDING_DIM = 64
+LSTM_UNITS = 64
 BATCH_SIZE = 32
 EPOCHS = 10
 # --- THIS IS THE CRITICAL CHANGE TO PREVENT OUT-OF-MEMORY ERRORS ---
